@@ -7,6 +7,8 @@ IDE:VScode，WebStorm<br>
 域名:阿里云<br>
 CDN:七牛云<br>
 <br>
+个人邮箱:wu49032320@icloud.com<br>
+QQ:49032320<br>
 完美支持如下设备:
 * 手机端  
     * iPhone X
