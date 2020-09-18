@@ -427,10 +427,6 @@ section {
     box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.06);
 }
 
-.service-item:hover {
-    cursor: pointer;
-}
-
 
 /* 服务图标 */
 
