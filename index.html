@@ -8,7 +8,6 @@
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="libs/glide/glide.core.min.css" />
     <link rel="stylesheet" href="libs/glide/glide.theme.min.css" />
     <link rel="stylesheet" href="style.css" />
@@ -27,6 +26,7 @@
             <a href="#team-intro">团队介绍</a>
             <a href="#lxwm">版权备案声明</a>
             <a href="魔方小游戏.html" target=_blank>魔方小游戏</a>
+            <a href="弹性盒子.html">弹性盒子</a>
         </nav>
         <!-- 折叠导航按钮 -->
         <div class=" burger">
@@ -122,7 +122,6 @@
                 </div>
             </div>
         </section>
-        <!-- 成功案例 -->
         <!-- section-bg 区域灰色背景 -->
         <section id="showcases" class="showcases section-bg">
             <h2 class="title1">项目展示</h2>
@@ -164,53 +163,63 @@
         </section>
         <!-- 服务流程 -->
         <section id="service" class="service">
-            <h2 class="title1">项目流程</h2>
+            <h2 class="title1">项目展示</h2>
             <p class="intro">
-                项目的从实施到落地，从0到1
+
             </p>
             <!-- 同关于我们 -->
             <div class="services">
-                <div class="service-item">
-                    <i class="fas fa-comments"></i>
-                    <h2 class="service-title">项目启动</h2>
-                    <p class="service-content">
-                        2020.2.4,创建文件夹
-                    </p>
+                <div class="service-item" onclick="window.open('https://github.com/WULANREN8177/S1-Java.git','_self')">
+                    <i class="fab fa-java"></i>
+                    <h2 class="service-title">S1 <span>Java</span></h2>
+                    <div class="service-content">
+                        <p><a href="#" class="Project">幸运抽奖</a></p>
+                        <p><a href="#" class="Project">人机猜拳</a></p>
+                        <p><a href="#" class="Project">吃货联盟</a></p>
+                    </div>
+                </div>
+                <div class="service-item" onclick="window.open('https://github.com/WULANREN8177/S1-HTML.git','_self')">
+                    <i class="fab fa-html5"></i>
+                    <h2 class="service-title">S1 <span>HTML</span></h2>
+                    <div class="service-content">
+                        <p><a href="#" class="Project">一号店</a></p>
+                    </div>
+                </div>
+                <div class="service-item" onclick="window.open('https://github.com/WULANREN8177/S1-SQL-C-WinFrom.git','_self')">
+                    <i class="fas fa-database"></i>
+                    <h2 class="service-title">S1 <span>SQL & C# & WinFrom</span></h2>
+                    <div class="service-content">
+                        <p><a href="#" class="Project">MySchool</a>&nbsp;&nbsp;&nbsp;<a href="#" class="Project">QQ</a></p>
+                        <p><a href="#" class="Project">MyBank</a>&nbsp;&nbsp;&nbsp;<a href="#" class="Project">QQ</a>&nbsp;&nbsp;&nbsp;<a href="#" class="Project">Shopping</a></p>
+                        <p><a href="#" class="Project">MySchool</a>&nbsp;&nbsp;&nbsp;<a href="#" class="Project">Shopping</a>&nbsp;&nbsp;&nbsp;<a href="#" class="Project">Flight</a></p>
+                    </div>
+                </div>
+                <div class="service-item" onclick="window.open('https://github.com/WULANREN8177/S1-Java.git','_self')">
+                    <i class="far fa-file-alt"></i>
+                    <h2 class="service-title">S1-Project</h2>
+                    <div class="service-content">
+                        <p><a href="#" class="Project">智5G 领未来</a></p>
+                        <p><a href="#" class="Project">Mercedes-benz</a></p>
+                        <p><a href="#" class="Project">MyKTV</a></p>
+                    </div>
                 </div>
                 <div class="service-item">
-                    <i class="fas fa-gavel"></i>
-                    <h2 class="service-title">主体完成</h2>
-                    <p class="service-content">
-                        2020.2.25,Mercedes-benz 基本完成
-                    </p>
+                    <i class="far fa-file-alt"></i>
+                    <h2 class="service-title">S2-Project</h2>
+                    <div class="service-content">
+                        <p><a href="#" class="Project">敬请期待</a></p>
+                        <p><a href="#" class="Project">敬请期待</a></p>
+                        <p><a href="#" class="Project">敬请期待......</a></p>
+                    </div>
                 </div>
                 <div class="service-item">
-                    <i class="fas fa-file-signature"></i>
-                    <h2 class="service-title">本地页面完成</h2>
-                    <p class="service-content">
-                        ****************************************
-                    </p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-user"></i>
-                    <h2 class="service-title">项目进阶</h2>
-                    <p class="service-content">
-                        ****************************************
-                    </p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <h2 class="service-title">全部完成</h2>
-                    <p class="service-content">
-                        2020.3.10,加入七牛云CDN，加快访问速度,项目静态部分完成。
-                    </p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-user-check"></i>
-                    <h2 class="service-title">未完待续...</h2>
-                    <p class="service-content">
-                        在后台学习完成后，继续搭建后台管理页面...
-                    </p>
+                    <i class="far fa-file-alt"></i>
+                    <h2 class="service-title">Y2-Project</h2>
+                    <div class="service-content">
+                        <p><a href="#" class="Project">敬请期待</a></p>
+                        <p><a href="#" class="Project">敬请期待</a></p>
+                        <p><a href="#" class="Project">敬请期待......</a></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -233,15 +242,15 @@
                     <ul class="social-links">
                         <li class="Shejiao">
                             <a href="http://wpa.qq.com/msgrd?v=3&uin=49032320&site=qq&menu=yes" target=_blank title="QQ"><i class="fab fa-qq"></i></a>
-                            <img src="https://zh8177.top/QQ%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" alt="" class="Shejiaoimg WUSHUTONG">
+                            <img src="" alt="" class="Shejiaoimg WUSHUTONG">
                         </li>
                         <li class="Shejiao">
                             <a href="#" title="WeChat"><i class="fab fa-weixin"></i></a>
-                            <img src="https://zh8177.top/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" alt="" class="Shejiaoimg WUSHUTONG">
+                            <img src="" alt="" class="Shejiaoimg WUSHUTONG">
                         </li>
                         <li class="Shejiao">
                             <a href="https://www.facebook.com/profile.php?id=100051739922141" title="Facebook" target=_blank><i class="fab fa-facebook"></i></a>
-                            <img src="https://zh8177.top/Facebook%E4%BA%8C%E7%BB%B4%E7%A0%81.png" alt="" class="Shejiaoimg WUSHUTONG">
+                            <img src="" alt="" class="Shejiaoimg WUSHUTONG">
                         </li>
                     </ul>
                 </div>
@@ -361,10 +370,10 @@
                         <p class="comments"><i class="far fa-comments"></i> X条评论</p>
                     </div>
                     <!-- 动态标题 -->
-                    <h2 class="act-title">纯静态网页完成</h2>
+                    <h2 class="act-title">www.zh8177.top</h2>
                     <!-- 动态内容摘要 -->
                     <article>
-                        纯静态网页制作完成，七牛云CDN加快访问速度
+                        www.zh8177.top
                     </article>
                     <!-- 阅读更多按钮 -->
                     <button class="readmore-btn">阅读更多</button>
@@ -379,9 +388,9 @@
                         </p>
                         <p class="comments"><i class="far fa-comments"></i> X条评论</p>
                     </div>
-                    <h2 class="act-title">通过JetBrains开源支持计划</h2>
+                    <h2 class="act-title">www.zh8177.top</h2>
                     <article>
-                        通过JetBrains开源支持计划，获得JetBrains全家桶一年授权
+                        www.zh8177.top
                     </article>
                     <button class="readmore-btn">阅读更多</button>
                 </div>
@@ -395,9 +404,9 @@
                         </p>
                         <p class="comments"><i class="far fa-comments"></i> X条评论</p>
                     </div>
-                    <h2 class="act-title">项目出售</h2>
+                    <h2 class="act-title">www.zh8177.top</h2>
                     <article>
-                        可做为大学生毕业设计,有意者联系QQ或邮箱
+                        www.zh8177.top
                     </article>
                     <button class="readmore-btn">阅读更多</button>
                 </div>

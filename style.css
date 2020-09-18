@@ -20,6 +20,7 @@ body {
     box-sizing: border-box;
     font-family: Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif;
     font-size: 14px;
+    text-decoration: none;
 }
 
 
@@ -419,9 +420,15 @@ section {
     grid-template-areas: "icon title" "icon content";
     grid-template-columns: 70px 1fr;
     grid-template-rows: 1fr 3fr;
+    width: 350px;
+    height: 170px;
     /* 内边距 */
     padding: 24px;
     box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.06);
+}
+
+.service-item:hover {
+    cursor: pointer;
 }
 
 
@@ -434,25 +441,33 @@ section {
     padding-top: 6px;
 }
 
+.service-item i.fab {
+    grid-area: icon;
+    font-size: 42px;
+    color: var(--primary-color);
+    padding-top: 6px;
+}
 
-/* 服务标题 */
+.service-item i.far {
+    grid-area: icon;
+    font-size: 42px;
+    color: var(--primary-color);
+    padding-top: 6px;
+}
 
 .service-item .service-title {
     grid-area: title;
     color: var(--text-color-darker);
-    font-size: 24px;
+    font-size: 22px;
 }
 
-
-/* 服务内容 */
+.service-item .service-content {
+    font-size: 15px;
+    margin-top: 8px;
+}
 
 .service-item .service-content {
-    grid-area: content;
-    color: var(--text-color-gray);
-    line-height: 30px;
-    font-size: 16px;
-    /* align-self: st; */
-    margin-top: 8px;
+    line-height: 26px;
 }
 
 
@@ -944,11 +959,6 @@ footer .lxwm p img {
     .service-item .service-title {
         font-size: 20px;
     }
-    /* 缩小业务流程内容字体和行距 */
-    .service-item .service-content {
-        font-size: 14px;
-        line-height: 24px;
-    }
     /* 团队成员改为两列 */
     .team-members {
         grid-template-columns: repeat(2, 1fr);
@@ -1209,4 +1219,16 @@ footer .lxwm p img {
     width: 100%;
     opacity: 1;
     transition: all .6s ease-in-out;
+}
+
+.Project {
+    color: #8B8B8B;
+}
+
+.undone {
+    color: #DFDFDF;
+}
+
+.undone:hover {
+    cursor: not-allowed;
 }
