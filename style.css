@@ -1221,10 +1221,15 @@ footer .lxwm p img {
     color: #8B8B8B;
 }
 
+.Project:hover {
+    color: #3B3B3B;
+}
+
 .undone {
     color: #DFDFDF;
 }
 
 .undone:hover {
+    color: #DFDFDF;
     cursor: not-allowed;
 }
