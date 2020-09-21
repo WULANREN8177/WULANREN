@@ -133,32 +133,39 @@
             </div>
             <!-- 案例 -->
             <div class="cases">
+                <script src="https://libs.baidu.com/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
                 <!-- case-item样式类，web science为类别类 -->
                 <div class="case-item web science">
                     <!-- 图片 -->
-                    <img src="https://zh8177.top/Demo01.png" alt="" />
+                    <img src="https://zh8177.top/Demo01.png" class="img min" alt="" />
                 </div>
                 <div class="case-item web science">
-                    <img src="https://zh8177.top/Demo02.png" alt="" />
+                    <img src="https://zh8177.top/Demo02.png" class="img min" alt="" />
                 </div>
                 <div class="case-item web">
-                    <img src="https://zh8177.top/Demo03.png" alt="" />
+                    <img src="https://zh8177.top/Demo03.png" class="img min" alt="" />
                 </div>
                 <div class="case-item web">
-                    <img src="https://zh8177.top/Demo04.png" alt="" />
+                    <img src="https://zh8177.top/Demo04.png" class="img min" alt="" />
                 </div>
                 <div class="case-item mobile">
-                    <img src="https://zh8177.top/Demo05.png" alt="" />
+                    <img src="https://zh8177.top/Demo05.png" class="img min" alt="" />
                 </div>
                 <div class="case-item science">
-                    <img src="https://zh8177.top/Demo06.png" alt="" />
+                    <img src="https://zh8177.top/Demo06.png" class="img min" alt="" />
                 </div>
                 <div class="case-item mobile web science">
-                    <img src="https://zh8177.top/Demo07.png" alt="" />
+                    <img src="https://zh8177.top/Demo07.png" class="img min" alt="" />
                 </div>
                 <div class="case-item mobile">
-                    <img src="https://zh8177.top/Demo08.png" alt="" />
+                    <img src="https://zh8177.top/Demo08.png" class="img min" alt="" />
                 </div>
+                <script>
+                    $('.img').click(function() {
+                        $(this).toggleClass('min');
+                        $(this).toggleClass('max');
+                    });
+                </script>
             </div>
         </section>
         <!-- 服务流程 -->
@@ -223,22 +230,6 @@
                         <p><a href="#" class="Project undone">敬请期待</a></p>
                         <p><a href="#" class="Project undone">敬请期待</a></p>
                         <p><a href="#" class="Project undone">敬请期待......</a></p>
-                    </div>
-                </div>
-
-                <div class="service-item">
-                    <i class="far fa-file-alt"></i>
-                    <h2 class="service-title">学习方法</h2>
-                    <div class="service-content">
-                        <p>
-                            <a href="#" class="Project"></a>
-                        </p>
-                        <p>
-                            <a href="#" class="Project"></a>
-                        </p>
-                        <p>
-                            <a href="#" class="Project"></a>
-                        </p>
                     </div>
                 </div>
             </div>

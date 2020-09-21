@@ -371,6 +371,7 @@ section {
 
 .showcases .cases {
     width: 100vw;
+    background-color: #f0f0f0;
 }
 
 .showcases .case-item {
@@ -379,6 +380,7 @@ section {
     /* 这里没有写错，图片比例为25：20，也就是5：4 */
     height: 20vw;
     overflow: hidden;
+    padding: 1px;
 }
 
 
@@ -1009,7 +1011,6 @@ footer .lxwm p img {
         padding: 24px 0;
         background-size: 200%;
     }
-    /* 成功案例图片设置为3列 */
     .showcases .case-item {
         width: calc(100vw / 3);
     }
@@ -1232,4 +1233,22 @@ footer .lxwm p img {
 .undone:hover {
     color: #DFDFDF;
     cursor: not-allowed;
+}
+
+
+/* 点击图片放大 */
+
+.max {
+    width: 95%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000000;
+    box-shadow: 0px 0px 100px 10px #FF434F;
+}
+
+.min {
+    height: auto;
 }
