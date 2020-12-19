@@ -31,8 +31,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../S2/使用jQuery快速高效制作网页交互特效/ch01" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,36 +63,35 @@
       <workItem from="1606040416542" duration="860000" />
       <workItem from="1606041293712" duration="1219000" />
       <workItem from="1606043768683" duration="10000" />
+      <workItem from="1607171505920" duration="61000" />
+      <workItem from="1607171576503" duration="301000" />
+      <workItem from="1607172054965" duration="98000" />
+      <workItem from="1607177366936" duration="117000" />
+      <workItem from="1607475953588" duration="495000" />
+      <workItem from="1607513936042" duration="631000" />
+      <workItem from="1607560307670" duration="5239000" />
+      <workItem from="1607649458536" duration="1187000" />
+      <workItem from="1607732754695" duration="586000" />
+      <workItem from="1607761791309" duration="1538000" />
+      <workItem from="1607821512522" duration="1176000" />
+      <workItem from="1607906409479" duration="3171000" />
+      <workItem from="1608001368524" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606037751883">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606037751883" />
-    <state width="1515" height="265" key="GridCell.Tab.0.bottom" timestamp="1606041100455">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1515" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606041100455" />
-    <state width="1515" height="265" key="GridCell.Tab.0.center" timestamp="1606041100455">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1515" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606041100455" />
-    <state width="1515" height="265" key="GridCell.Tab.0.left" timestamp="1606041100454">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1515" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606041100454" />
-    <state width="1515" height="265" key="GridCell.Tab.0.right" timestamp="1606041100455">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1515" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606041100455" />
-    <state x="270" y="62" key="SettingsEditor" timestamp="1606043759974">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606043759974" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
