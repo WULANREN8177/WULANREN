@@ -546,7 +546,7 @@ html {
         position: absolute;
         top: 40%;
         right: 20px;
-        background: url(https://pic.wushutong.cn/%E6%9B%B4%E5%A4%9A.svg) no-repeat;
+        background: url(https://pic.wushutong.cn/Mercedes-benz_Project/%E6%9B%B4%E5%A4%9A.svg) no-repeat;
     }
     #AMGnavBar>div a {
         display: none;
@@ -765,7 +765,7 @@ html {
         border: none;
         box-shadow: none;
         cursor: pointer;
-        background: url(https://pic.wushutong.cn/%E5%8F%B3%E4%B8%8B%E8%A7%92%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC.png)center center no-repeat;
+        background: url(https://pic.wushutong.cn/Mercedes-benz_Project/%E5%8F%B3%E4%B8%8B%E8%A7%92%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC.png)center center no-repeat;
         background-size: cover;
     }
 }

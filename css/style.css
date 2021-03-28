@@ -591,8 +591,6 @@ section {
     max-width: unset;
     width: 100vw;
     height: 255px;
-    /* 背景，自动拉伸，取中间部分 */
-    background-image: url(images/adult-business-computer-contemporary-380769.jpg);
     background-size: cover;
     background-position: center;
     /* 4列布局 */
