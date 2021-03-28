@@ -6,7 +6,7 @@ IDE:VScode，WebStorm<br>
 域名:阿里云<br>
 CDN:七牛云<br>
 <br>
-个人邮箱:shutong@wushutong.cn<br>
+个人邮箱:me@wushutong.cn<br>
 QQ:49032320<br>
 完美支持如下设备:
 * 手机端  
